@@ -1,0 +1,19 @@
+{
+  "name": "Silence",
+  "short_name": "Silence",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#10130e",
+  "theme_color": "#10130e",
+  "description": "A thoughtful companion for ColorFit Pulse 2.",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

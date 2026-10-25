@@ -1,0 +1,134 @@
+390:.method static constructor <clinit>()V
+396:.method public constructor <init>(Landroid/content/Context;Lcom/noisefit/data/repository/abstraction/DeviceRepository;Lcom/noisefit/data/repository/abstraction/DownloadRepository;Lcom/noisefit/data/local/dataStored/abstraction/DataStoredInterface;Lcom/noisefit_commans/data/local/abstraction/WatchDataStore;Lcom/noisefit/session/SessionManager;Lcom/noisefit/watch/WatchesSDK;Lcom/noisefit/ui/dashboard/home/alerts/HomeAlertManager;)V
+436:    const-string v0, "appContext"
+440:    const-string v0, "deviceRepository"
+444:    const-string v0, "downloadRepository"
+448:    const-string v0, "localDataStore"
+452:    const-string v0, "watchDataStore"
+456:    const-string v0, "sessionManager"
+460:    const-string v0, "watchesSDK"
+464:    const-string v0, "homeAlertManager"
+486:    const-string p1, ""
+579:.method public static final synthetic k(Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel;)Landroid/content/Context;
+587:.method public static final synthetic l(Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel;)Lcom/noisefit/data/repository/abstraction/DeviceRepository;
+595:.method public static final synthetic m(Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel;)Lcom/noisefit/data/repository/abstraction/DownloadRepository;
+603:.method public static final synthetic n(Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel;)Landroidx/lifecycle/MutableLiveData;
+611:.method public static final synthetic o(Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel;)Landroidx/lifecycle/MutableLiveData;
+619:.method public static final synthetic p(Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel;)Landroidx/lifecycle/MutableLiveData;
+627:.method public static final synthetic q(Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel;)Landroidx/lifecycle/MutableLiveData;
+635:.method public static final synthetic r(Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel;)Landroidx/lifecycle/MutableLiveData;
+643:.method public static final synthetic s(Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel;)Landroidx/lifecycle/MutableLiveData;
+651:.method public static final synthetic t(Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel;)Landroidx/lifecycle/MutableLiveData;
+661:.method public final A(Ljava/lang/String;Ljava/io/File;Ljava/lang/String;)V
+676:    const-string v0, "url"
+680:    const-string v0, "file"
+684:    const-string v0, "fileName"
+704:    invoke-direct/range {v2 .. v7}, Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel$downloadAgpsFile2$1;-><init>(Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel;Ljava/lang/String;Ljava/io/File;Ljava/lang/String;Lkotlin/coroutines/Continuation;)V
+721:.method public final B(Ljava/lang/String;Ljava/io/File;Ljava/lang/String;)V
+736:    const-string v0, "url"
+740:    const-string v0, "file"
+744:    const-string v0, "fileName"
+768:    invoke-direct/range {v2 .. v7}, Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel$downloadFirmware$1;-><init>(Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel;Ljava/lang/String;Ljava/io/File;Ljava/lang/String;Lkotlin/coroutines/Continuation;)V
+785:.method public final C(Ljava/util/List;)V
+800:    const-string v0, "list"
+812:    invoke-direct {v4, p1, p0, v0}, Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel$downloadVisionFirmware$1;-><init>(Ljava/util/List;Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel;Lkotlin/coroutines/Continuation;)V
+827:.method public final D()Landroidx/lifecycle/LiveData;
+847:.method public final E()Landroidx/lifecycle/LiveData;
+867:.method public final F()Ljava/io/File;
+877:.method public final G()V
+888:    invoke-direct {v3, p0, v1}, Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel$getAgpsFileUrl$1;-><init>(Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel;Lkotlin/coroutines/Continuation;)V
+901:.method public final H()Z
+909:.method public final I()Landroidx/lifecycle/LiveData;
+929:.method public final J()Ljava/lang/String;
+939:.method public final K()Landroidx/lifecycle/LiveData;
+959:.method public final L()Z
+967:.method public final M(Landroid/content/Context;)Ljava/lang/String;
+978:    const-string p1, ""
+1015:.method public final N()Lcom/noisefit/data/local/dataStored/abstraction/DataStoredInterface;
+1025:.method public final O()Ljava/lang/String;
+1035:.method public final P()Landroidx/lifecycle/LiveData;
+1055:.method public final Q()Lcom/noisefit/session/SessionManager;
+1065:.method public final R()Z
+1073:.method public final S()Landroidx/lifecycle/LiveData;
+1093:.method public final T()Landroidx/lifecycle/LiveData;
+1113:.method public final U()Landroidx/lifecycle/LiveData;
+1133:.method public final V()Landroidx/lifecycle/LiveData;
+1153:.method public final W()Ljava/util/ArrayList;
+1172:.method public final X()Landroidx/lifecycle/LiveData;
+1193:.method public final Y()Lcom/noisefit_commans/data/local/abstraction/WatchDataStore;
+1203:.method public final Z()Lcom/noisefit/watch/WatchesSDK;
+1213:.method public final a0()Landroidx/lifecycle/MutableLiveData;
+1233:.method public final b0()Z
+1238:    invoke-interface {v0}, Lcom/noisefit/data/local/dataStored/abstraction/DataStoredInterface;->F6()Lcom/noisefit_commans/models/ColorFitDevice;
+1249:    invoke-virtual {v0}, Lcom/noisefit_commans/models/ColorFitDevice;->getDeviceType()Ljava/lang/String;
+1255:    invoke-virtual {v3}, Lcom/noisefit_commans/models/DeviceType;->getDeviceType()Ljava/lang/String;
+1267:    invoke-virtual {v0}, Lcom/noisefit_commans/models/ColorFitDevice;->getDeviceType()Ljava/lang/String;
+1273:    invoke-virtual {v2}, Lcom/noisefit_commans/models/DeviceType;->getDeviceType()Ljava/lang/String;
+1289:.method public final c0(Ljava/lang/Integer;Ljava/lang/String;)V
+1323:    const-string v0, "fw_version"
+1333:    invoke-direct {v4, p0, p1, p2}, Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel$markOtaUpdateSuccess$1;-><init>(Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)V
+1348:.method public final d0()V
+1364:.method public final e0(Landroid/content/Context;)V
+1371:    const-string v0, "context"
+1377:    invoke-virtual {v0}, Lcom/noisefit/session/SessionManager;->b0()Lcom/noisefit/data/remote/response/UpdateResponse;
+1383:    invoke-virtual {v0}, Lcom/noisefit/data/remote/response/UpdateResponse;->getDescriptionEnglish()Ljava/lang/String;
+1418:.method public final f0(Ljava/io/File;)V
+1430:.method public final g0(Z)V
+1438:.method public final h0(Ljava/lang/String;)V
+1445:    const-string v0, "<set-?>"
+1454:.method public final i0(Z)V
+1462:.method public final j0(Ljava/lang/String;)V
+1474:.method public final k0(Lcom/noisefit/session/SessionManager;)V
+1481:    const-string v0, "<set-?>"
+1490:.method public final l0(Z)V
+1498:.method public final m0(Z)V
+1516:.method public final n0(Lcom/noisefit/data/remote/response/UpdateResponse;Z)V
+1527:    invoke-virtual {p0, p1}, Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel;->m0(Z)V
+1536:    invoke-virtual {p0, v0}, Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel;->m0(Z)V
+1557:    invoke-virtual {p0, v0}, Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel;->m0(Z)V
+1562:.method public final o0(Ljava/util/ArrayList;)V
+1577:    const-string v0, "<set-?>"
+1586:.method public final p0(Lcom/noisefit_commans/data/local/abstraction/WatchDataStore;)V
+1593:    const-string v0, "<set-?>"
+1602:.method public final q0(Lcom/noisefit/watch/WatchesSDK;)V
+1609:    const-string v0, "<set-?>"
+1618:.method public final u(Z)V
+1633:    const-string v4, "WatchInfoGlobals.firmwareVersionNumber "
+1643:    const-string v3, "TAG"
+1683:    invoke-virtual {p0, v2}, Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel;->m0(Z)V
+1690:    invoke-interface {v0}, Lcom/noisefit/data/local/dataStored/abstraction/DataStoredInterface;->F6()Lcom/noisefit_commans/models/ColorFitDevice;
+1698:    invoke-virtual {v0}, Lcom/noisefit_commans/models/ColorFitDevice;->getDeviceType()Ljava/lang/String;
+1720:    const-string v7, "version"
+1732:    const-string v6, "firmware_id"
+1736:    const-string v1, "device_type"
+1740:    const-string v1, "platform"
+1742:    const-string v4, "android"
+1748:    invoke-virtual {v0}, Lcom/noisefit_commans/models/ColorFitDevice;->getAddress()Ljava/lang/String;
+1758:    const-string v1, "mac"
+1793:    const-string v1, "isOTARequired"
+1803:    invoke-direct {v9, p0, v5, p1, v3}, Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel$checkForUpdates$1;-><init>(Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel;Lcom/google/gson/JsonObject;ZLkotlin/coroutines/Continuation;)V
+1818:.method public final v()V
+1833:    invoke-interface {v0}, Lcom/noisefit/data/local/dataStored/abstraction/DataStoredInterface;->F6()Lcom/noisefit_commans/models/ColorFitDevice;
+1841:    invoke-virtual {v0}, Lcom/noisefit_commans/models/ColorFitDevice;->getDeviceType()Ljava/lang/String;
+1865:    const-string v6, "version_number"
+1877:    const-string v6, "firmware_id"
+1881:    const-string v5, "device_type"
+1887:    invoke-virtual {v0}, Lcom/noisefit_commans/models/ColorFitDevice;->getAddress()Ljava/lang/String;
+1897:    const-string v2, "mac"
+1909:    const-string v2, "build_number"
+1913:    const-string v0, "platform"
+1915:    const-string v2, "android"
+1925:    invoke-direct {v7, p0, v3, v1}, Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel$checkForUpdatesRecent$1;-><init>(Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)V
+1940:.method public final w()V
+1947:    invoke-virtual {v0, v1}, Lcom/noisefit/ui/dashboard/home/alerts/HomeAlertManager;->Q(Lcom/noisefit/ui/dashboard/home/alerts/FirmwareAlert;)V
+1952:.method public final x(Ljava/lang/String;)V
+1977:    const-string v0, "Delete Failed"
+1984:.method public final y()V
+2018:    const-string v2, "toString(...)"
+2022:    invoke-virtual {p0, v1}, Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel;->x(Ljava/lang/String;)V
+2036:    invoke-virtual {p0, v0}, Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel;->x(Ljava/lang/String;)V
+2041:.method public final z(Ljava/lang/String;Ljava/io/File;Ljava/lang/String;)V
+2056:    const-string v0, "url"
+2060:    const-string v0, "file"
+2064:    const-string v0, "fileName"
+2084:    invoke-direct/range {v2 .. v7}, Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel$downloadAgpsFile1$1;-><init>(Lcom/noisefit/ui/myDevice/manage/CheckForUpdatesViewModel;Ljava/lang/String;Ljava/io/File;Ljava/lang/String;Lkotlin/coroutines/Continuation;)V

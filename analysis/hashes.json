@@ -1,0 +1,27 @@
+[
+  {
+    "file": "NoiseFit_+Health+&+Fitness_5.4.6_APKPure.xapk",
+    "size": 311010347,
+    "sha256": "2ee2eb92b990f5989b5a3611a39acd99c8c7eca15b48fa421f53b13d2656a737"
+  },
+  {
+    "file": "analysis/input/config.arm64_v8a.apk",
+    "size": 123815723,
+    "sha256": "29c81130ab35013e15d92761934e6e35de4309199bd50e5e0c3487cd7e7783f6"
+  },
+  {
+    "file": "analysis/input/config.hdpi.apk",
+    "size": 8197038,
+    "sha256": "032cc5627b80ad4261f462fafc7dea475fe14ff4346c0af253bde8af792f29b9"
+  },
+  {
+    "file": "analysis/input/com.noisefit.apk",
+    "size": 178726248,
+    "sha256": "2ee2ec8c387d6f98be8b82ec3b58515c407cdd9b9a57e01fa911aa226abfb17c"
+  },
+  {
+    "file": "analysis/input/config.en.apk",
+    "size": 266649,
+    "sha256": "61cff61ab300994f42c633209aad29684c8327d422739b8ae640714649bf768f"
+  }
+]

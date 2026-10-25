@@ -1,0 +1,8 @@
+{
+  "version": 26,
+  "firmware_id": 2109,
+  "device_type": "colorfit_pulse_2",
+  "platform": "android",
+  "mac": null,
+  "isOTARequired": true
+}

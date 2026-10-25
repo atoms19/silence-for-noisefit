@@ -1,0 +1,238 @@
+{
+  "source_apk": "NoiseFit 5.4.6, com.noisefit build 876",
+  "scope": "offline static review; no app launch, backend request, or device transfer",
+  "exported_app_owned_components": [
+    {
+      "kind": "service",
+      "name": "com.noisefit.TvsConnectionService",
+      "permission": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "tvsConnectionService.AIDL"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "kind": "activity",
+      "name": "com.noisefit.ui.onboarding.pairing.PairDeviceActivity",
+      "permission": null,
+      "intent_filters": []
+    },
+    {
+      "kind": "activity",
+      "name": "com.noisefit.ui.SplashActivity",
+      "permission": null,
+      "intent_filters": [
+        {
+          "actions": [],
+          "data": []
+        },
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "data": [
+            {
+              "scheme": "https",
+              "host": "link.gonoise.com",
+              "pathPrefix": "/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "activity-alias",
+      "name": "com.noisefit.RepublicDay",
+      "permission": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.MAIN"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "kind": "activity-alias",
+      "name": "com.noisefit.DefaultLauncher",
+      "permission": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.MAIN"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "kind": "activity",
+      "name": "com.noisefit.MainActivity",
+      "permission": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "data": [
+            {
+              "scheme": "https"
+            },
+            {
+              "host": "noisefit.page.link"
+            },
+            {
+              "pathPattern": "/StepsScreen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "service",
+      "name": "com.noisefit_commans.services.LocationUpdatesIntentService",
+      "permission": null,
+      "intent_filters": []
+    },
+    {
+      "kind": "receiver",
+      "name": "com.noisefit_commans.services.LocationUpdatesBroadcastReceiver",
+      "permission": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "com.noisefit_commans.services.ACTION_PROCESS_UPDATES"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "kind": "receiver",
+      "name": "com.noisefit.receiver.broadcastReceiver.OtpBroadcastReceiver",
+      "permission": "com.google.android.gms.auth.api.phone.permission.SEND",
+      "intent_filters": [
+        {
+          "actions": [
+            "com.google.android.gms.auth.api.phone.SMS_RETRIEVED"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "kind": "service",
+      "name": "com.noisefit.receiver.service.ConnectionService",
+      "permission": null,
+      "intent_filters": []
+    },
+    {
+      "kind": "receiver",
+      "name": "com.noisefit.receiver.broadcastReceiver.CallAndMessageReceiver",
+      "permission": "android.permission.BROADCAST_SMS",
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.PHONE_STATE",
+            "android.intent.action.NEW_OUTGOING_CALL",
+            "android.provider.Telephony.SMS_RECEIVED"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "kind": "receiver",
+      "name": "com.noisefit.receiver.broadcastReceiver.StopFindMyPhoneBroadcast",
+      "permission": null,
+      "intent_filters": []
+    },
+    {
+      "kind": "receiver",
+      "name": "com.noisefit.receiver.broadcastReceiver.AlarmReceiver",
+      "permission": null,
+      "intent_filters": []
+    },
+    {
+      "kind": "receiver",
+      "name": "com.noisefit.receiver.broadcastReceiver.ConnectionStartReceiver",
+      "permission": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.BOOT_COMPLETED"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "kind": "receiver",
+      "name": "com.noisefit.ui.widget.utils.RepDashboardGlanceReceiver",
+      "permission": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.appwidget.action.APPWIDGET_UPDATE"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "kind": "activity",
+      "name": "com.noisefit.ui.dashboard.feature.healthConnect.PrivacyActivity",
+      "permission": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "androidx.health.ACTION_SHOW_PERMISSIONS_RATIONALE"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "kind": "activity-alias",
+      "name": "com.noisefit.ViewPermissionUsageActivity",
+      "permission": "android.permission.START_VIEW_PERMISSION_USAGE",
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.VIEW_PERMISSION_USAGE"
+          ],
+          "data": []
+        }
+      ]
+    }
+  ],
+  "watchface_navigation_uri_candidates": [
+    "https://link.gonoise.com/CustomWf",
+    "https://link.gonoise.com/WatchFaceScreen",
+    "https://link.gonoise.com/WatchfaceNew",
+    "https://link.gonoise.com/wfpro"
+  ],
+  "findings": {
+    "incoming_watchface_file_api": "not verified in reviewed surfaces",
+    "connection_service_binder": "onBind returns null",
+    "connection_service_start_actions": [
+      "START",
+      "STOP",
+      "INIT_DEFAULT"
+    ],
+    "tvs_aidl_methods": [
+      "J3(IDeviceDetailsCallback)",
+      "S1(UserDetails)",
+      "U8(IUserDetailsResponseCallback)"
+    ],
+    "diy_image_picker": "ACTION_PICK image/*",
+    "custom_route": "CustomWf -> SDK_EVOLVE -> diyWatchFaceFragment when hasWfCategory == 1",
+    "device_photo_upload": "Evolve2UpdateDeviceUnitsHandler.q0 -> TGPhotoDialBuilder -> existing TGClient TGDialManager",
+    "runtime_validation": "pending on actual installed NoiseFit/device metadata"
+  }
+}

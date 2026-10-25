@@ -1,0 +1,15 @@
+analysis/smali/classes5/com/noisefit_commans/models/DeviceType.smali:343:    sget-object v40, Lcom/noisefit_commans/models/DeviceType;->COLORFIT_PULSE_2:Lcom/noisefit_commans/models/DeviceType;
+analysis/smali/classes5/com/noisefit_commans/models/DeviceType.smali:1033:    const-string v1, "ColorFit Pulse 2"
+analysis/smali/classes5/com/noisefit_commans/models/DeviceType.smali:1035:    const-string v2, "colorfit_pulse_2"
+analysis/smali/classes5/com/noisefit_commans/models/DeviceType.smali:1043:    sput-object v0, Lcom/noisefit_commans/models/DeviceType;->COLORFIT_PULSE_2:Lcom/noisefit_commans/models/DeviceType;
+analysis/smali/classes5/com/noisefit_evolve2/handler/Evolve2QueryDeviceUnitsHandler$queryFirmwareVersion$1.smali:114:    sget-object v2, Lcom/noisefit_commans/models/DeviceType;->COLORFIT_PULSE_2:Lcom/noisefit_commans/models/DeviceType;
+analysis/smali/classes17/com/noisefit/data/dataConverter/OfflineDataMapper.smali:281:    sget-object v3, Lcom/noisefit_commans/models/DeviceType;->COLORFIT_PULSE_2:Lcom/noisefit_commans/models/DeviceType;
+analysis/smali/classes17/com/noisefit/data/dataConverter/OfflineDataMapper.smali:2101:    sget-object v9, Lcom/noisefit_commans/models/DeviceType;->COLORFIT_PULSE_2:Lcom/noisefit_commans/models/DeviceType;
+analysis/smali/classes4/com/noisefit/ui/feeds/create/styles/workout/WorkoutCyclingStyle1Fragment.smali:267:    sget-object v1, Lcom/noisefit_commans/models/DeviceType;->COLORFIT_PULSE_2:Lcom/noisefit_commans/models/DeviceType;
+analysis/smali/classes4/com/noisefit/ui/onboarding/pairing/pair/PairDeviceViewModel.smali:2436:    sget-object v6, Lcom/noisefit_commans/models/DeviceType;->COLORFIT_PULSE_2:Lcom/noisefit_commans/models/DeviceType;
+analysis/smali/classes4/com/noisefit/ui/workout/ActivityDetailsViewModel.smali:6267:    sget-object v6, Lcom/noisefit_commans/models/DeviceType;->COLORFIT_PULSE_2:Lcom/noisefit_commans/models/DeviceType;
+analysis/smali/classes4/com/noisefit/ui/workout/ActivityCricketDetailsViewModel.smali:2562:    sget-object v3, Lcom/noisefit_commans/models/DeviceType;->COLORFIT_PULSE_2:Lcom/noisefit_commans/models/DeviceType;
+analysis/smali/classes4/com/noisefit/ui/workout/mbdetails/MapBoxActivityDetailsViewModel.smali:7194:    sget-object v6, Lcom/noisefit_commans/models/DeviceType;->COLORFIT_PULSE_2:Lcom/noisefit_commans/models/DeviceType;
+analysis/smali/classes4/com/noisefit/ui/workout/mbdetails/MapBoxActivityDetailsViewModel.smali:8702:    sget-object v3, Lcom/noisefit_commans/models/DeviceType;->COLORFIT_PULSE_2:Lcom/noisefit_commans/models/DeviceType;
+analysis/smali/classes4/com/noisefit/ui/workout/cycling/ActivityCyclingViewModel.smali:573:    sget-object v3, Lcom/noisefit_commans/models/DeviceType;->COLORFIT_PULSE_2:Lcom/noisefit_commans/models/DeviceType;
+analysis/smali/classes4/com/noisefit/ui/workout/ActivityShareFragment.smali:970:    sget-object v1, Lcom/noisefit_commans/models/DeviceType;->COLORFIT_PULSE_2:Lcom/noisefit_commans/models/DeviceType;

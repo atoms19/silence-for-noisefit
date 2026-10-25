@@ -1,0 +1,20 @@
+{
+  "http_status": "200",
+  "curl_exit_code": "0",
+  "request": {
+    "version": 26,
+    "firmware_id": 2109,
+    "device_type": "colorfit_pulse_2",
+    "platform": "android",
+    "mac": null,
+    "isOTARequired": false
+  },
+  "response": {
+    "success": true,
+    "data": null,
+    "message": "Successfully executed",
+    "time": "1792867488348"
+  },
+  "response_sha256": "7c001f5d6728d1389c0df5774857ccc51f28fe939bb59e1aa7e4189a2982e545",
+  "assessment": "Application success with null data; no firmware URL. Single unauthenticated baseline, not proof of global access policy or latest firmware."
+}

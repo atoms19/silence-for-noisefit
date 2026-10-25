@@ -1,0 +1,2894 @@
+[
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/auth_v2/refresh-token"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/remote/NetworkConnectionInterceptor$getUpdatedToken$2.smali",
+    "line": 216,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/TokenRefreshApi->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://www.strava.com/api/v3/oauth/token"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/remote/NetworkConnectionInterceptorStrava$getUpdatedToken$2.smali",
+    "line": 232,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/TokenRefreshApi->b(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/user/dashboard/timeline?page="
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/remote/source/FeedDataSource.smali",
+    "line": 235,
+    "caller_method": "public h(Landroidx/paging/PagingSource$LoadParams;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->k4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/core/watch/help_and_support/v3/device-pairing?type="
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/AppRepositoryImpl$getHelpAndSupportAnonymous$2.smali",
+    "line": 225,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->u6(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/core/watch/help_and_support/v2/ques_detail/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/AppRepositoryImpl$getHelpAndSupportByQuestionId$2$serverResult$1.smali",
+    "line": 236,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->U2(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/core/watch/help_and_support/list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/AppRepositoryImpl$getHelpAndSupportList$2$serverResult$1.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->X5(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/core/watch/help_and_support/v3/watch/list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/AppRepositoryImpl$getHelpAndSupportV2List$2$serverResult$1.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->s2(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/core/watch/help_and_support/dashboard/watch/answer?type="
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/AppRepositoryImpl$getPairYourDeviceData$2.smali",
+    "line": 230,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->h4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/auth_v2/watch/migration"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/AppRepositoryImpl$migrateUserToNewAuth$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->y0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/auth_v2/watch/login"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/AuthenticationRepositoryImpl$loginUser$2.smali",
+    "line": 192,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->Q5(Ljava/lang/String;Lcom/noisefit/data/remote/request/LoginRequest;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/auth_v2/logout"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/AuthenticationRepositoryImpl$logoutUser$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->l6(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/auth_v2/watch/send-otp"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/AuthenticationRepositoryImpl$sendOtp$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->y6(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/auth_v2/watch/verify-otp"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/AuthenticationRepositoryImpl$verifyOtp$2.smali",
+    "line": 192,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->a6(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/ai-bridge/new-chat"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/ChatGptRepositoryImpl$generateThreadId$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->r5(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/ai-bridge/generateTitle"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/ChatGptRepositoryImpl$generateThreadTitle$2.smali",
+    "line": 219,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->M1(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/ChatGptRepositoryImpl$getAiGeneratedWf$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->e5(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/ai-bridge/watch/ai/models?version="
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/ChatGptRepositoryImpl$getAiModelsData$2.smali",
+    "line": 222,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->j(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/ai-bridge/suggested-questions?type="
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/ChatGptRepositoryImpl$getAiTopQuestions$2.smali",
+    "line": 236,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->f4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/ai-bridge/chat-history"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/ChatGptRepositoryImpl$getChatHistoryInfo$2.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->v5(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/connect-bot/v1/app/customer/session/create"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/ChatGptRepositoryImpl$getGenieChatUrl$2.smali",
+    "line": 233,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->G5(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/ai-bridge/chat?thread_id="
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/ChatGptRepositoryImpl$loadMessagesByThreadId$2.smali",
+    "line": 222,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->g(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/ai-bridge/stopStream?thread_id="
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/ChatGptRepositoryImpl$stopResponseGeneration$2.smali",
+    "line": 222,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->L(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/ai-bridge/watchface/count"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/ChatGptRepositoryImpl$updateAiGeneratedWfCount$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->w3(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/content/list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/ContentRepositoryImpl$getContentList$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->q3(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/content/sub_category/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/ContentRepositoryImpl$getSubCategoryVideoList$2.smali",
+    "line": 224,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->w1(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/content/video_detail/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/ContentRepositoryImpl$getVideoDetails$2.smali",
+    "line": 221,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->E2(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/content/video_progress"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/ContentRepositoryImpl$updateProgressVideo$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->a2(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://noise-connect.gonoise.com/warranty/registration"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/DeviceRepositoryImpl$addWarranty$2.smali",
+    "line": 212,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->c3(Ljava/lang/String;Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://noise-connect.gonoise.com/warranty/check-info"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/DeviceRepositoryImpl$checkWarranty$4.smali",
+    "line": 212,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->c5(Ljava/lang/String;Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/ai-bridge/voice-ai/commands"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/DeviceRepositoryImpl$getAiGuideContent$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->a5(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://noise-connect.gonoise.com/complaint/channels"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/DeviceRepositoryImpl$getMarketPlaces$2.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->E1(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/heart_rates/v2/mqtt/srns"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/DeviceRepositoryImpl$getPhilipsKey$2.smali",
+    "line": 233,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->y2(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/v2/random_list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/DeviceRepositoryImpl$getRecentWatchFace$2$serverResult$1.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->k5(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/core/watch/devices/link"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/DeviceRepositoryImpl$getVendorAgpsFileUrl$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->H0(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://noise-connect.gonoise.com/product/getproductBycategory"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/DeviceRepositoryImpl$getWarrantyWatchList$2.smali",
+    "line": 206,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->U3(Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/user_detail/watch/migration"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/DeviceRepositoryImpl$getWatchOnlineMigration$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->C5(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/user_detail/user/firmware/tracking"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/DeviceRepositoryImpl$markOtaUpdateComplete$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->d3(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/logging/create/pairing_logs"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/DeviceRepositoryImpl$savePairingErrorLogs$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->j1(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/comment/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$addComment$2.smali",
+    "line": 234,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->v(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/comment/reply/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$addCommentReply$2.smali",
+    "line": 231,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->G(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/v2/reaction/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$addReaction$2.smali",
+    "line": 234,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->C(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/post"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$createPost$3.smali",
+    "line": 488,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->f3(Ljava/lang/String;Ljava/util/List;Lokhttp3/RequestBody;Lokhttp3/RequestBody;Lokhttp3/RequestBody;Lokhttp3/RequestBody;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "DELETE",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/comment/reply/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$deleteCommentReply$2.smali",
+    "line": 221,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->R1(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "DELETE",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/comment/",
+      "https://app-eks.gonoise.com/feeds/post/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$deletePOrC$2.smali",
+    "line": 306,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->D0(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "PUT",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/comment/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$editComment$2.smali",
+    "line": 231,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->y(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "PUT",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/reaction/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$editReactions$2.smali",
+    "line": 248,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->m5(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/noise_admin/profile_timeline?page="
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$getAdminTimeline$2.smali",
+    "line": 221,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->W2(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/comment/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$getComment$2.smali",
+    "line": 224,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->Q(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/comment/reply/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$getCommentReply$2.smali",
+    "line": 222,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->e(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/user/dashboard/timeline?page="
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$getDashboardFeed$2$serverResult$1.smali",
+    "line": 224,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->k4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/friends/feed/friend"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$getFriendsFriendList$2.smali",
+    "line": 213,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->a1(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/template/list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$getImageTemplates$2.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->O4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/profile/noise"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$getNoiseProfileData$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->d4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/v2/comment/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$getPostComments$2.smali",
+    "line": 231,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->f2(Ljava/lang/String;ILkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/user/post/detail/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$getPostDetailsData$2.smali",
+    "line": 222,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->Y(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/user/post_count/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$getPostList$2.smali",
+    "line": 221,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->q2(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/reaction/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$getPostReactions$2.smali",
+    "line": 225,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->i(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/reaction/v2/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$getPostReactionsPaginate$2.smali",
+    "line": 253,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->o1(Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;ILkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/report_list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$getReportedList$2.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->U5(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/friends/feed/tag/friend_list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$getTagFriendsList$2.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->O5(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/template/list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$getTemplateList$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->d1(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/user/timeline?page="
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$getTimeLineWithoutPL$2.smali",
+    "line": 254,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->A0(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/user/polls/response"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$ratePollSubmit$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->N3(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/report"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$reportFeed$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->p5(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "PUT",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/comment/reply/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$updateCommentReply$2.smali",
+    "line": 248,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->z1(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "PUT",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/post/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FeedRepositoryImpl$updatePost$2.smali",
+    "line": 431,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->M0(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app.gonoise.com/watch/wellbeing/user-health/cycle_length"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FemaleHealthRepositoryImpl$getCycleLengthData$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->d6(Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app.gonoise.com/watch/wellbeing/user-info"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FemaleHealthRepositoryImpl$getCycleTrackerInfo$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->A3(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app.gonoise.com/watch/wellbeing/user/onboarding/status"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FemaleHealthRepositoryImpl$getFMHOnboardStatus$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->F4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app.gonoise.com/watch/wellbeing/icon"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FemaleHealthRepositoryImpl$getFemaleHealthIcons$2$serverResult$1.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->X4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app.gonoise.com/watch/wellbeing/temp"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FemaleHealthRepositoryImpl$getFemaleHealthTempData$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->g6(Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app.gonoise.com/watch/wellbeing/user-health"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FemaleHealthRepositoryImpl$getFemaleHealthUserInfo$2$serverResult$1.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->b1(Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app.gonoise.com/watch/wellbeing/user-health"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FemaleHealthRepositoryImpl$getFemaleHealthUserInfo$3.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->b1(Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app.gonoise.com/watch/wellbeing/user-health/cycle_history?first_data=true"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FemaleHealthRepositoryImpl$getPeriodCycleHistory$2$serverResult$1.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->c6(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app.gonoise.com/watch/wellbeing/user-health/period_length"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FemaleHealthRepositoryImpl$getPeriodDurationList$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->Y3(Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app.gonoise.com/watch/wellbeing/log/period"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FemaleHealthRepositoryImpl$logPeriod$2.smali",
+    "line": 278,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->f5(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app.gonoise.com/watch/wellbeing/log/symptom"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FemaleHealthRepositoryImpl$saveLogSymptom$2.smali",
+    "line": 240,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->B0(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app.gonoise.com/watch/wellbeing/user-health/confirm"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FemaleHealthRepositoryImpl$setPeriodConfirm$2.smali",
+    "line": 270,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->W4(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app.gonoise.com/watch/wellbeing/user-health"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FemaleHealthRepositoryImpl$submitFemaleHealthInfo$2.smali",
+    "line": 270,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->h1(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "PUT",
+    "url_candidates": [
+      "https://app.gonoise.com/watch/wellbeing/user-info/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FemaleHealthRepositoryImpl$updateCycleTrackerInfo$2.smali",
+    "line": 293,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->Y2(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/user_detail/female-status"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FemaleHealthRepositoryImpl$updateCycleTrackerToggle$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->y3(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/block/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$blockFriend$2.smali",
+    "line": 252,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->N(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/friends/competition/request-list/received"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$getAllCompetitionRequests$2.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->x2(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/blocked/user/list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$getBlockFriendList$2.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->K4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/core/location/city_list/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$getCityList$2.smali",
+    "line": 224,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->v6(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/friends/common-friends"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$getCommonFriends$2.smali",
+    "line": 213,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->x3(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/friends/compete-friend/list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$getCompeteFriendsList$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->X2(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/friends/competition/list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$getCompetitionList$2$serverResult$1.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->I1(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/core/location/country_list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$getCountryList$2.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->r4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/users/badges"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$getFriendBadges$2.smali",
+    "line": 213,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->t2(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/challenges/v2/my_profile/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$getFriendChallenges$2.smali",
+    "line": 221,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->F2(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/friends/list/v2"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$getFriendList$2.smali",
+    "line": 236,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->r1(Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/user_detail/profile/get"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$getFriendProfile$2$serverResult$1.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->e6(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/friends/check"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$getInterestList$2.smali",
+    "line": 213,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->v2(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/friends/check"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$getNearBy$2.smali",
+    "line": 213,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->n2(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/friends/check"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$getNoiseFitContactsList$2.smali",
+    "line": 213,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->b3(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/friends/check"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$getPastWinnerList$2.smali",
+    "line": 213,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->O2(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/friends/feed/dashboard/request_count"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$getPendingRequestCount$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->C4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/friends/requests_received"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$getReceivedRequest$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->W1(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/friends/requests_sent"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$getSentRequest$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->s4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/core/location/state_list/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$getStateInlList$2.smali",
+    "line": 224,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->e2(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/core/location/state_list/1"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$getStateList$2.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->e2(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/friends/emojis/list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$getUserFriendEmoji$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->Q1(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/app_summary/yearly/v2"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$getYearlySummary$2$serverResult$1.smali",
+    "line": 209,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->u5(Ljava/lang/String;ILkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/app_summary/yearly/v3"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$getYearlySummary2025$2$serverResult$1.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->p6(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/friends/emojis/save"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$postEmojiToUser$2.smali",
+    "line": 250,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->O1(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/user_detail/location/save"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$saveUserLocation$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->B5(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/friends/competition/request"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$setCompetitionRequestStatus$2.smali",
+    "line": 347,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->m2(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/friends/request"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$setFriendRequestStatus$2.smali",
+    "line": 355,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->A2(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/unblock/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/FriendsRepositoryImpl$unBlockFriend$2.smali",
+    "line": 221,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->o5(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/user_detail/symbo/insurance/activation"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/InsuranceRepositoryImpl$activateInsurance$2.smali",
+    "line": 219,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->e1(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/user_detail/symbo/insurance/payment/page"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/InsuranceRepositoryImpl$buyInsuranceData$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->u2(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/user_detail/symbo/insurance/detail/page"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/InsuranceRepositoryImpl$getInsuranceData$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->x6(Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/npl/v3/collect/bonus_points"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/NPLRepositoryImpl$collectNplAndroidBonusPoint$2.smali",
+    "line": 192,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->K1(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/rewards/npl_quiz/collect"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/NPLRepositoryImpl$collectNplQuizReward$2.smali",
+    "line": 192,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->u3(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/npl/user/collect"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/NPLRepositoryImpl$collectNplReward$2.smali",
+    "line": 220,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->v4(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/npl/v3/get/hall_of_fame/history/brand/listing"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/NPLRepositoryImpl$getHOFBrandParticipantList$2.smali",
+    "line": 192,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->F1(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/npl/v3/get/hall_of_fame/history"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/NPLRepositoryImpl$getHallOfFameList$2.smali",
+    "line": 183,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->X3(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/npl/v4/profile"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/NPLRepositoryImpl$getMatchesData$2.smali",
+    "line": 183,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->n6(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/npl/v4/profile/scorecard"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/NPLRepositoryImpl$getNplDashScoreCard$2.smali",
+    "line": 183,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->h6(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/NPLRepositoryImpl$getNplProfile$2.smali",
+    "line": 183,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->F0(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/npl/v2/quiz/questions"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/NPLRepositoryImpl$getNplQuizData$2.smali",
+    "line": 183,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->u4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/npl/previous/wins"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/NPLRepositoryImpl$getNplWins$2.smali",
+    "line": 183,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->b6(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/npl/v4/prediction/history"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/NPLRepositoryImpl$getPredictionHistory$2.smali",
+    "line": 186,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->E5(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/npl/v4/user/prediction"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/NPLRepositoryImpl$predictWinner$2.smali",
+    "line": 192,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->T1(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/npl/v4/user/fav/team"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/NPLRepositoryImpl$selectNplFavouriteTeam$2.smali",
+    "line": 192,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->V3(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/npl/v4/quiz/submit/answers"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/NPLRepositoryImpl$submitQuizAnswer$2.smali",
+    "line": 192,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->A5(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/challenges/rally/badges/collect"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RallyRepositoryImpl$collectRallyBadge$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->F5(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/challenges/rally/user/profile"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RallyRepositoryImpl$getRallyDashboardData$2.smali",
+    "line": 183,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->V2(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/challenges/rally/user/history/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RallyRepositoryImpl$getRallyHistory$2.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->s3(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/challenges/rally/content"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RallyRepositoryImpl$getRallyRules$2.smali",
+    "line": 183,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->t5(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/challenges/rally/user/join"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RallyRepositoryImpl$jonRally$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->e4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/challenges/rally/user/toggle/pause"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RallyRepositoryImpl$pauseRally$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->H5(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/challenges/rally/badges/list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RallyRepositoryImpl$rallyBadgeListData$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->V0(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/challenges/rally/user/toggle/pause"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RallyRepositoryImpl$resumeRally$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->K0(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/rewards/coupon/redeem/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$availCoupon$2.smali",
+    "line": 264,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->W0(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "PUT",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/subscription-center/referral/reward-claimed"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$claimReferralData$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->q4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/rewards/custom/challenge/history/collect-all"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$collectAllChallengeCoin$2.smali",
+    "line": 229,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->j6(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/rewards/user/collect/all"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$collectAllPoints$2.smali",
+    "line": 211,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->D3(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/rewards/custom/challenge/history/collect/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$collectChallengeCoin$2.smali",
+    "line": 250,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->z4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/rewards/user/collect"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$collectPoints$2.smali",
+    "line": 220,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->y4(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/rewards/v2/collect/voucher"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$collectVoucher$2.smali",
+    "line": 282,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->j4(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/rewards/user/ui/earn"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$earnRewardsPoints$2.smali",
+    "line": 220,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->N0(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/rewards/coupon/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$getCouponDetails$2.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->Y0(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/core/dashboard"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$getDashboardRewardsData$2$serverResult$1.smali",
+    "line": 183,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->x4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/rewards/v2/coupon/list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$getDealsList$2.smali",
+    "line": 183,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->r6(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/rewards/rae/claim"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$getRateEarnClaimCoupon$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->r2(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/rewards/rate_earn/status"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$getRateEarnData$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->o2(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/subscription-center/referral/detail"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$getReferralDetailsData$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->n5(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/rewards/v2/about?type="
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$getRewardAboutList$2.smali",
+    "line": 207,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->b2(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/rewards/v2/profile"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$getRewardProfileData$2$serverResult$1.smali",
+    "line": 183,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->c1(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/rewards/v2/insider"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$getRewardsInsider$2$serverResult$1.smali",
+    "line": 183,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->M3(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/rewards/user/profile"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$getRewardsProfile$2.smali",
+    "line": 183,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->q6(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/rewards/v2/win/list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$getRewardsWinList$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->h2(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/sale/redeem/coupon/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$getSaleVoucherDetails$2.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->G0(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/streaks/sleep/user_profile",
+      "https://app-eks.gonoise.com/streaks/user_profile"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$getStreakData$2.smali",
+    "line": 203,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->Z5(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/streaks/sleep/user_profile",
+      "https://app-eks.gonoise.com/streaks/user_profile"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$getStreakData$2.smali",
+    "line": 228,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->Z5(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/streaks/about/streak"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$getStreaksAboutData$2.smali",
+    "line": 183,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->l5(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/rewards/v2/dialy/task"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$getTaskList$2$serverResult$1.smali",
+    "line": 183,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->V5(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/rewards/user/points_history"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$getTransactionHistory$2.smali",
+    "line": 183,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->t6(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/rewards/user/voucher/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$getVoucherDetails$2$serverResult$1.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->v1(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/rewards/v2/user/vouchers"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$getVoucherList$2$serverResult$1.smali",
+    "line": 183,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->A4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/personalized-sales/watch/upgrade/section"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$getWatchUpgradeData$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->R3(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/rewards/v2/wheel/profile"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$getWheelProfileData$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->C0(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/sale/shop/message"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$getWidgetMessage$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->z2(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/sale/popup"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$personalizedData$2.smali",
+    "line": 183,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->n4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/sale/claim/coupon"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$saleCouponClaim$2.smali",
+    "line": 183,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->M5(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/rewards/v2/wheel/confirm"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/RewardsRepositoryImpl$wheelConfirm$2.smali",
+    "line": 238,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->m4(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/gonoise-website/v1/nfa/shop/product-list/category-wise/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/ShopRepositoryImpl$getCategoryProducts$2.smali",
+    "line": 246,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/ShopService->b(Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/gonoise-website/v1/nfa/shop/product/search/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/ShopRepositoryImpl$searchProduct$2.smali",
+    "line": 226,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/ShopService->d(Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://www.strava.com/api/v3/oauth/token"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/StravaRepositoryImpl$createAuthToken$2.smali",
+    "line": 208,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/StravaService->c(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://www.strava.com/api/v3/activities",
+      "https://www.strava.com/api/v3/activities/",
+      "https://www.strava.com/api/v3/uploads"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/StravaRepositoryImpl$postActivity$2.smali",
+    "line": 1023,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/StravaService->a(Ljava/lang/String;Lokhttp3/MultipartBody$Part;Lokhttp3/RequestBody;Lokhttp3/RequestBody;Lokhttp3/RequestBody;Lokhttp3/RequestBody;Lokhttp3/RequestBody;Lokhttp3/RequestBody;Lokhttp3/RequestBody;Lokhttp3/RequestBody;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "PUT",
+    "url_candidates": [
+      "https://www.strava.com/api/v3/activities",
+      "https://www.strava.com/api/v3/activities/",
+      "https://www.strava.com/api/v3/uploads"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/StravaRepositoryImpl$postActivity$2.smali",
+    "line": 1347,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/StravaService->b(Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://www.strava.com/api/v3/activities",
+      "https://www.strava.com/api/v3/activities/",
+      "https://www.strava.com/api/v3/uploads"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/StravaRepositoryImpl$postActivity$2.smali",
+    "line": 1513,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/StravaService->d(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://www.strava.com/api/v3/uploads/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/StravaRepositoryImpl.smali",
+    "line": 702,
+    "caller_method": "public final l(Ljava/lang/Long;IJLkotlin/coroutines/Continuation;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/StravaService->e(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/multisync/v2/create"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/SyncRepositoryImpl$postDataToServer$2.smali",
+    "line": 691,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->L2(Ljava/lang/String;Lcom/noisefit/data/model/UserDataPost;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/multisync/v2/health-events"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/SyncRepositoryImpl$postHealthEvent$2.smali",
+    "line": 269,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->j5(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/ai-bridge/ai-transcription/isDeleted"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/TranscribeRepositoryImpl$deleteTranscriptionById$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->N1(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/ai-bridge/ai-transcription/summary"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/TranscribeRepositoryImpl$getAiAndUpdateTranscriptionSummary$2$serverResult$1.smali",
+    "line": 237,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->z3(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/ai-bridge/ai-transcription/details/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/TranscribeRepositoryImpl$getAiTranscriptionSummaryById$2.smali",
+    "line": 222,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->o4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/ai-bridge/ai-transcription/list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/TranscribeRepositoryImpl$getAllTranscriptionListByTag$2$serverResult$1.smali",
+    "line": 260,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->z3(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/ai-bridge/ai-transcription/subscription/detail/page"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/TranscribeRepositoryImpl$getTranscriptPaywallContent$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->P4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/ai-bridge/ai-transcription/summary/add"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/TranscribeRepositoryImpl$saveAiTranscriptionData$2$serverResult$1.smali",
+    "line": 315,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->T4(Ljava/lang/String;Lokhttp3/RequestBody;Lokhttp3/RequestBody;Lokhttp3/RequestBody;Lokhttp3/RequestBody;Lokhttp3/MultipartBody$Part;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/ai-bridge/ai-transcription/list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/TranscribeRepositoryImpl$searchAllTranscriptionList$2$serverResult$1.smali",
+    "line": 288,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->z3(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/ai-bridge/ai-transcription/user/subscription/purchase"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/TranscribeRepositoryImpl$transcriptionPurchasePayment$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->v0(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/ai-bridge/ai-transcription/update"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/TranscribeRepositoryImpl$updateAiTranscriptionTitleData$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->F3(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/ai-bridge/ai-transcription/starred/update"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/TranscribeRepositoryImpl$updateTranscriptionStarredStatus$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->E0(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/challenges/cc/dashboard/v3/active"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserActivityRepositoryImpl$getActiveChallengeListData2$2$serverResult$1.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->I0(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/challenges/buddies/leaderboard/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserActivityRepositoryImpl$getChallengeBuddyLeaderboard$2$serverResult$1.smali",
+    "line": 224,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->B1(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/challenges/detail/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserActivityRepositoryImpl$getChallengeDetailByID$2$serverResult$1.smali",
+    "line": 263,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->Z0(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/challenges/cc/challenge-detail/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserActivityRepositoryImpl$getChallengeDetailsById$2$serverResult$1.smali",
+    "line": 222,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->V4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/challenges/leaderboard/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserActivityRepositoryImpl$getChallengeLeaderboard$2$serverResult$1.smali",
+    "line": 224,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->I4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/challenges/completed"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserActivityRepositoryImpl$getCompletedChallenges$2$serverResult$1.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->U4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/challenges/current_list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserActivityRepositoryImpl$getCurrentChallenges$2$serverResult$1.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->C3(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/challenges/cc/challenge/completed/list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserActivityRepositoryImpl$getCustomCompChallengeListData1$2$serverResult$1.smali",
+    "line": 203,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->j2(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/challenges/leaderboard/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserActivityRepositoryImpl$getGlobalAllChallengeLeaderboard$2.smali",
+    "line": 223,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->d2(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/challenges/leaderboard/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserActivityRepositoryImpl$getGlobalAllChallengeLeaderboard1$2$serverResult$1.smali",
+    "line": 265,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->d2(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/challenges/completed"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserActivityRepositoryImpl$getGlobalCompChallengeListData1$2$serverResult$1.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->U4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/challenges/leaderboard/friends/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserActivityRepositoryImpl$getGlobalFriendChallengeLeaderboard$2.smali",
+    "line": 223,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->M2(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/challenges/leaderboard/friends/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserActivityRepositoryImpl$getGlobalFriendChallengeLeaderboard1$2$serverResult$1.smali",
+    "line": 265,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->M2(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/blood_oxygen/v2/hydration/history"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserActivityRepositoryImpl$getHMHydrationHistory$2$serverResult$1.smali",
+    "line": 232,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->Q2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/step-activity/v4/users/history/data"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserActivityRepositoryImpl$getHMStepsHistory$2$serverResult$1.smali",
+    "line": 241,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->w5(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/blood_oxygen/v1/hydration/highlights"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserActivityRepositoryImpl$getHydrationHighlights$2$serverResult$1.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->K5(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/blood_oxygen/v1/hydration/history"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserActivityRepositoryImpl$getHydrationHistory$2$serverResult$1.smali",
+    "line": 232,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->x0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/challenges/cc/dashboard/v3/new"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserActivityRepositoryImpl$getNewChallengeListData$2$serverResult$1.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->I0(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/step-activity/v3/users/highlights/data"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserActivityRepositoryImpl$getStepsHighlights$2$serverResult$1.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->K5(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/step-activity/v3/users/history/data"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserActivityRepositoryImpl$getStepsHistory$2$serverResult$1.smali",
+    "line": 232,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->m6(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/users/add-vendors"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$acceptEnterpriseInvite$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->Z2(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/multisync/v2/effort-calibration/acknowledge"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$acknowledgeEffortCalibration$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->E3(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/subscription-center/pro/activation"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$activateProWatchFeature$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->Y5(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/user_detail/migration/watch/tokens"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$deleteWatchContact$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->P1(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "DELETE",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/activities/v2/workout/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$deleteWorkout$2.smali",
+    "line": 221,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->i1(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/challenges/tp/scan-qr?token="
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$externalRegUserViaQr$2.smali",
+    "line": 222,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->m0(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/activities/v1/list/feeds"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$geRecentActivities$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->g5(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/activities/v2/list/detail/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$getActivitiesDetails$2.smali",
+    "line": 221,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->Z1(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/activities/v2/workout/history"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$getActivitiesPaging$2.smali",
+    "line": 249,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->K3(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/ai-bridge/workout/ai/summary"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$getAiWorkoutSummary$2.smali",
+    "line": 247,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->A1(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/multisync/v2/calibration/state"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$getCalibrationDetails$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->W5(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/rewards/falcon/campaign"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$getCampaignData$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->G1(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/user_detail/user/sos/contacts"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$getContactAsFavourite$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->S2(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/users/get-pending-vendors"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$getEnterpriseData$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->m1(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/subscription-center/v4/gold/page"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$getGoldPlanContentUpdated$2.smali",
+    "line": 297,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->j3(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/activities/v2/zones/history"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$getHeartRateZoneData$2.smali",
+    "line": 219,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->M4(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/user_detail/interest/list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$getInterests$2.smali",
+    "line": 186,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->H3(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/user_detail/onboarding/config"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$getOnboardingConfig$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->g2(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/subscription-center/v2/gold/page"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$getPlanContent$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->J1(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/challenges/feeds/completed_challenges"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$getRecentChallenges$2.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->O3(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/challenges/feeds/completed_challenges"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$getRecentChallengesCompetition$2.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->q1(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/friends/competition/completed/list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$getRecentCompetition$2.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->W3(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/campaign/rep-band/download"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$getRepBandCampaignData$2.smali",
+    "line": 199,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->k1(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/activities/v2/users/history/data"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$getTrainingRelatedData$2.smali",
+    "line": 241,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->i5(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/ai-bridge/ai-transcription/subscription/status"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$getTranscriptionProInfo$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->Q4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/activities/v2/fitness/dashboard"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$getUserFitnessData$2$1.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->C1(Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/activities/v2/onboarding/questionnaire"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$getUserOnboardActivities$2.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->o3(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/subscription-center/v3/user/reward/notification"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$getVoucherGift$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->k3(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/core/watch/workout_images"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$getWorkoutShareImages$2$serverResult$1.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->R2(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/user_detail/migration/watch/tokens"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$goldPlanWatchMigration$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->u0(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/user_detail/user/sos/contacts/update"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$markContactAsFavourite$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->G3(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/activities/v1/create"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$postActivities$2.smali",
+    "line": 208,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->R4(Ljava/lang/String;Lcom/noisefit_commans/models/SportsModeRequestList;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/user_detail/watch/dashboard/config"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$saveDashboardConfig$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->h5(Ljava/lang/String;Lcom/noisefit/data/model/SaveDashboardConfig;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/user_detail/activities/save"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$saveUserActivities$2.smali",
+    "line": 192,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->r3(Ljava/lang/String;Lcom/noisefit/data/remote/request/SaveUserActivitiesRequest;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/user_detail/user/sos/contacts/sendLocation"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$sendSOSLocation$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->X0(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/activities/v2/onboarding/submit"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$setUserOnboardActivities$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->D4(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/subscription-center/v3/pro/purchase"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$subscribePayment$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->U1(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/user_detail/interest/save"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$updateInterests$2.smali",
+    "line": 195,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->y1(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/user_detail/language/change"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$updateLanguage$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->t0(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://androidpublisher.googleapis.com/androidpublisher/v3/applications/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$validatePayment$2.smali",
+    "line": 254,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->R0(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/pro"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/UserRepositoryImpl$watchSubscribePayment$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->i3(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/paid/wf/payment"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$buyBundleWf$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->C2(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/paid/wf/cart/details"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$cartDetails$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->z0(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/ai-bridge/watchface/category"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$getAiPlayGroundWFCategory$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->J3(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch/ai-bridge/watchface/ai/banner?type="
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$getAiWatchfaceBanner$2.smali",
+    "line": 222,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->m(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/paid/collection"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$getBundleWatchfaceList$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->w0(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/in_built/list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$getCloudWatchFaces$2$serverResult$1.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->h0(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/custom_watchface/list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$getCustomDiyWatchFacesData$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->P0(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/custom_watchface/video/list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$getCustomVideoWatchFacesData$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->P5(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/custom_watchface/purchase/history"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$getCustomWfPurchaseHistory$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->s1(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/vendor/list?fv="
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$getDaFitCloudWatchFaces$2$serverResult$1.smali",
+    "line": 244,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->h0(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/custom_watchface/list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$getDaFitTopSliderWatchFacesData$2.smali",
+    "line": 203,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->p4(Ljava/lang/String;ZILkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/diy/list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$getDiy2WFData$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->s6(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/my_favourites"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$getFavouriteWatchFaces$2$serverResult$1.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->Z4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/newly_added_list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$getNewlyAddedWatchFaces$2.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->Q3(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/paid/wf/my-collection"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$getPurchasedBWFCollection$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->e3(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/random_list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$getRecentWatchFace$2.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->k5(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/top_downloaded_list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$getTopDownloadedWatchFaces$2.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->w6(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/v4/profile"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$getVideoWatchfaceCategoriesV4$2$serverResult$1.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->S3(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/v2/my_favourites",
+      "https://app-eks.gonoise.com/watch_faces/v2/newly_added_list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$getWatchFace2CustomData$2$serverResult$1.smali",
+    "line": 235,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->f1(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/detail/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$getWatchFaceById$2.smali",
+    "line": 221,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->p3(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/list_by_category"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$getWatchFaceCategory$2$serverResult$1.smali",
+    "line": 204,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->I2(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/list"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$getWatchFaceCustomData$2$serverResult$1.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->D5(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/newly_added_list",
+      "https://app-eks.gonoise.com/watch_faces/top_downloaded_list",
+      "https://app-eks.gonoise.com/watch_faces/v2/watchfaces_by_category/"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$getWatchFacesByCategoryId$2$serverResult$1.smali",
+    "line": 243,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->a4(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/v4/profile"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$getWatchfaceCategoriesAi$2$serverResult$1.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->S3(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/v4/profile"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$getWatchfaceCategoriesV4$2$serverResult$1.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->S3(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/favourites"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$markAsFavourite$2.smali",
+    "line": 302,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->B4(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/custom_watchface/purchase"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$purchaseCustomWatchface$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->Z3(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/v2/rating"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$rateWatchFace$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->q5(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/logging/create/watchface_logs"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$saveWfErrorLogs$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->j1(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/pro/download"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$setPaidWatchFaceDownload$2.smali",
+    "line": 220,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->S5(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/downloads"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$setWatchFaceDownload$2.smali",
+    "line": 220,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->S5(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/paid/wf/mutation"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$updateItemCart$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->n1(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/watch_faces/cw/increment-usage"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFaceRepositoryImpl$watchfaceUploadCount$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->f6(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/user_detail/glow/lunimary/friends"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFeatureRepositoryImpl$getGlowFriendList$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->S0(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/user_detail/glow/others"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFeatureRepositoryImpl$getOthersGlowFriends$2.smali",
+    "line": 201,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->v3(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/user_detail/glow/switch"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFeatureRepositoryImpl$handleGlowFriendSwitch$2.smali",
+    "line": 234,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->b4(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "PUT",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/user_detail/glow/mute"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFeatureRepositoryImpl$muteOthersGlowFriends$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->b5(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/user_detail/glow/buddy"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFeatureRepositoryImpl$saveSelectedGlowFriends$2.smali",
+    "line": 234,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->L3(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "POST",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/user_detail/glow/lunimary/notification"
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/implementation/WatchFeatureRepositoryImpl$sendGlowFriendNotification$2.smali",
+    "line": 210,
+    "caller_method": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->w2(Ljava/lang/String;Lcom/google/gson/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "verb": "GET",
+    "url_candidates": [
+      "https://app-eks.gonoise.com/feeds/user/timeline?page="
+    ],
+    "source": "analysis/smali/classes18/com/noisefit/data/repository/pagingSource/TimelinePagingSource.smali",
+    "line": 266,
+    "caller_method": "public h(Landroidx/paging/PagingSource$LoadParams;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;",
+    "target": "com/noisefit/data/remote/abstraction/NetworkService->A0(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  }
+]

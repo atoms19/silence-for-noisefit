@@ -1,0 +1,31 @@
+{
+  "http_status": "200",
+  "curl_exit_code": "0",
+  "request_changes_from_baseline": {
+    "isOTARequired": {
+      "before": false,
+      "after": true
+    }
+  },
+  "response": {
+    "success": true,
+    "data": {
+      "version": 26,
+      "version_name": "V5.4.328.26",
+      "url": "https://images.gonoise.com/firmwares/production/colorfit_pulse_2/url/20220816054411/ColorFitPulse2V26diffa.zip",
+      "description_chinese": "V5.4.328.26",
+      "description_english": "We have updated the firmware to make your app experience more seamless. What's changed:\r\n- Improved Connectivity\r\n- Enhanced performance and critical bug resolution",
+      "description_th": null,
+      "is_force": 0,
+      "image_url": "",
+      "touch_url": "",
+      "hr_url": "",
+      "app_version": null,
+      "forceUpdate": true
+    },
+    "message": "Successfully executed",
+    "time": "1792867819624"
+  },
+  "response_sha256": "f3112a04fd494ce92aed6eeccd477e3542725707e4aad0c9964b25f424b26b5c",
+  "assessment": "Successful unauthenticated metadata response with Pulse 2 URL for reported installed version V5.4.328.26. Package bytes not yet obtained; local download failed at DNS."
+}

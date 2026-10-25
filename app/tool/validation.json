@@ -1,0 +1,55 @@
+{
+  "scope": "Flutter 0.1.1 urgent local unpair/release fix",
+  "flutter_version": "3.47.7",
+  "dart_version": "3.13.5",
+  "checks": {
+    "flutter_analyze": "pass: no issues",
+    "web_release_build": "pass: 0.1.1 build/web",
+    "android_bridge_kotlin_compile": "pass",
+    "android_resources_aapt2_compile": "pass",
+    "android_manifest_and_resource_xml_parse": "pass",
+    "direct_flutter_engine_smoke": "pass",
+    "standard_flutter_test": "blocked: localhost socket bind denied; suite compiled but not executed",
+    "android_apk_build": "blocked: Gradle could not determine usable wildcard IP for file-lock coordination",
+    "physical_device_tests": "not run"
+  },
+  "smoke_coverage": [
+    "startup has no scans/connects",
+    "scan deduplicates advertisements",
+    "stale connection and service IDs ignored",
+    "matching service event completes discovery",
+    "disconnect clears device data",
+    "demo scan does not use native transport",
+    "leaving demo clears sample state",
+    "eight render layouts: default phone, compact/tablet large text, long-name connected device, error display",
+    "watchface preview opens and closes",
+    "emergency release while connecting cancels busy and clears local state",
+    "late connection event after release is ignored",
+    "always-visible release button closes connected session and recovery dialog"
+  ],
+  "preview_outputs": [
+    "build/previews/device.png",
+    "build/previews/studio.png",
+    "build/previews/responsive-320-0.png",
+    "build/previews/responsive-320-1.png",
+    "build/previews/responsive-800-0.png",
+    "build/previews/responsive-800-1.png",
+    "build/previews/connected-compact.png",
+    "build/previews/error-compact.png"
+  ],
+  "native_source_sha256": "ac6a5327b67583482b56464f479811dee755dcb4e8c91b57bad8297780eb7e93",
+  "kotlin_compile_command": "/opt/android-studio/plugins/Kotlin/kotlinc/bin/kotlinc app/android/app/src/main/kotlin/dev/silence/silence_app/MainActivity.kt -classpath /home/atoms/Android/Sdk/platforms/android-36/android.jar:/opt/flutter/bin/cache/artifacts/engine/android-arm64/flutter.jar:/home/atoms/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.7.0/85334205d65cca70ed0109c3acbd29e22a2d9cb1/lifecycle-common-2.7.0.jar -d /tmp/silence-native-bridge.jar",
+  "no_backend_requests_or_device_writes": true,
+  "web_main_js_sha256": "90db5bc4aef0d5b8ec6fd9791529ae2c2bc1aa534a5d413f28010667626c2c29",
+  "source_sha256": {
+    "lib/controller/silence_controller.dart": "7005562d14573f7dc0a862423c6985218c005c20bfe07cbc21d0c1209386f41d",
+    "lib/main.dart": "b05bc4a19c01d40c2fa9a64e0a589dd781685afa6716badfa770a90041a75c7e",
+    "lib/services/ble_transport.dart": "2d03096c6fa2dcf690e25823349f88d010f16fa94f2a34994c69075574263e51",
+    "lib/ui/silence_shell.dart": "6689f49865f395af6f819a36576a84be57b68f44d9180c544533c58738fe8681",
+    "lib/ui/silence_theme.dart": "46b11d674a86c1c878a6a40025a0b6cbcb432daab4edde42c148632fbfd1e16e"
+  },
+  "physical_user_observations": [
+    "User reports force-stopping Silence broke its BLE connection.",
+    "User reports NoiseFit pairing worked again afterward."
+  ]
+}

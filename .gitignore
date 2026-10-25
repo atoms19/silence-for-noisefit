@@ -1,0 +1,67 @@
+# Vendor binaries and decompiled/extracted third-party material
+*.apk
+*.xapk
+*.apks
+*.aab
+analysis/input/
+analysis/base/
+analysis/smali/
+analysis/native/
+analysis/firmware/
+analysis/device-cache/
+analysis/classes.json
+analysis/disassembly.log
+
+# Firmware images and dumps
+*.bin
+*.hex
+*.elf
+*.img
+
+# Flutter / Dart
+app/build/
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/.packages
+app/.pub-cache/
+app/.pub/
+app/pubspec_overrides.yaml
+app/*.iml
+app/android/*.iml
+
+# Android / Gradle
+app/android/.gradle/
+app/android/local.properties
+app/android/captures/
+app/android/.cxx/
+app/android/app/debug/
+app/android/app/profile/
+app/android/app/release/
+app/android/key.properties
+*.keystore
+*.jks
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+*.swp
+*.log
+analysis/resources.txt
+analysis/AndroidManifest.xml
